@@ -1,9 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - sshourie
+  # - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
+  - sshourie/ads-sentiment
+  - sshourie/DLA-using-R
+  - sshourie/SCCM-hackathon
+  - sshourie/DLA-using-R
   - twbs/bootstrap
   - jekyll/jekyll
   - jquery/jquery
