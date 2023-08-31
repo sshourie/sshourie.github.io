@@ -16,10 +16,11 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-### I'm a graduate student pursuing Masters in Data Science at [Georgia Institute of Technology](https://www.analytics.gatech.edu/)
+#### I'm a graduate student pursuing Masters in Data Science at [Georgia Institute of Technology](https://www.analytics.gatech.edu/)
+
 I'm also working as a part-time Data Scientist at [BBDO Atlanta](https://bbdoatl.com/).
 
-Previously, I have worked as a financial analyst for 4 years 
+Previously, I have worked as a financial analyst for 4 years. 
 
 
 <!-- 
