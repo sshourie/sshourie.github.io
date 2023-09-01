@@ -1,17 +1,22 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: GitHub Repos
+title: Repositories
+description: GitHub Repositories
 nav: true
 nav_order: 3
 ---
 
 # Repositories for the projects in the [Projects](/projects/) page
 
+
+
 See my github user profile and repositories for select projects below!
 
-## GitHub Repositories
+
+
+
+## Select GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -21,7 +26,9 @@ See my github user profile and repositories for select projects below!
 </div>
 {% endif %}
 
-## GitHub users
+
+
+## GitHub user
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
