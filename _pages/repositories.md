@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-# Repositories for the projects in the [Projects](/projects/) page
+# Repositories for [projects](/projects/)
 
 
 
