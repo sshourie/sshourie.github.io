@@ -41,6 +41,32 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- Skills: -->
+          {%- if page.skills %}
+            <hr>
+            <div class="links">
+              <h5> Languages: </h5>
+              <br>
+              {%- for lang in page.languages -%}
+                <span class="skill_btn">{{ lang }}</span>
+              {%- endfor %}
+              <br> <br>
+              <h5> Machine Learning: </h5>
+                <br>
+              {%- for lang in page.ML -%}
+                <span class="skill_btn">{{ lang }}</span>
+              {%- endfor %}
+              <br> <br>
+              <h5> Visualizations: </h5>
+                <br>
+              {%- for viz in page.Viz -%}
+                <span class="skill_btn">{{ viz }}</span>
+              {%- endfor %}
+              <br> <br>
+            </div>
+            <br>
+          {%- endif %}
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
