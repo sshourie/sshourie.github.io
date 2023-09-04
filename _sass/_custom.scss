@@ -94,8 +94,21 @@ a.btn.btn-sm.z-depth-0 {
   font-size: 1.2rem;
 }
 
+br.hidden{
+  line-height: 0.5em; 
+}
+br.hidden2{
+  line-height: 1em; 
+}
+hr.hidden{
+  height:1rem; visibility:hidden;
+  margin-top: 0rem;
+  margin-bottom:0rem
+}
+
 span.skill_btn{
   -webkit-text-size-adjust: 100%;
+  font-size: 0.8rem;
   font-feature-settings: normal;
   tab-size: 4;
   font-family: Lato,Arial,Helvetica,sans-serif;
@@ -103,25 +116,6 @@ span.skill_btn{
   --tw-bg-opacity: 1;
   border: 0 solid #e5e7eb;
   box-sizing: border-box;
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x: ;
-  --tw-pan-y: ;
-  --tw-pinch-zoom: ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal: ;
-  --tw-slashed-zero: ;
-  --tw-numeric-figure: ;
-  --tw-numeric-spacing: ;
-  --tw-numeric-fraction: ;
-  --tw-ring-inset: ;
   --tw-ring-offset-width: 0px;
   --tw-ring-offset-color: #fff;
   --tw-ring-color: rgba(59,130,246,.5);
@@ -129,33 +123,16 @@ span.skill_btn{
   --tw-ring-shadow: 0 0 #0000;
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
-  --tw-blur: ;
-  --tw-brightness: ;
-  --tw-contrast: ;
-  --tw-grayscale: ;
-  --tw-hue-rotate: ;
-  --tw-invert: ;
-  --tw-saturate: ;
-  --tw-sepia: ;
-  --tw-drop-shadow: ;
-  --tw-backdrop-blur: ;
-  --tw-backdrop-brightness: ;
-  --tw-backdrop-contrast: ;
-  --tw-backdrop-grayscale: ;
-  --tw-backdrop-hue-rotate: ;
-  --tw-backdrop-invert: ;
-  --tw-backdrop-opacity: ;
-  --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia: ;
   border-radius: 9999px;
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgb(255 73 92/var(--tw-border-opacity));
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-bottom: .5rem;
   padding-top: .5rem;
+  margin-left: 1rem;
 }
 
 // Underline my name in publications

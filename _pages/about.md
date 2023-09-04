@@ -11,8 +11,8 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image: GT2022_Headshot_High_Res.jpg
+  image_circular: false # crops the image to make it circular
   address:
 
 news: false  # includes a list of news items
@@ -23,6 +23,8 @@ skills: true # include skills
 languages: [Python, SQL, R, VBA, Javascript] # include programming languages as buttons
 ML: [NLP, LLM, PyTorch, TensorFlow ]
 Viz: [Tableau, ggplot, plotly, Shiny, D3.js, Folium]
+buttons_per_row: 3
+Employers: true
 ---
 
 I’m a graduate student currently pursuing my MS in Computational analytics at [Georgia Institute of Technology](https://www.analytics.gatech.edu/), graduating in Dec 2023, with a focus on Machine Learning and statistical methods.

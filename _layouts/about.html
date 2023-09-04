@@ -20,14 +20,16 @@ layout: default
               {% if page.profile.image_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                <!-- {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%} -->
+                {%- assign profile_image_class = "img-fluid height:400 rounded" -%}
               {% endif %}
 
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image
-              cache_bust=true -%}
+              cache_bust=true
+              height='300px' -%}
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
@@ -41,28 +43,47 @@ layout: default
             {{ content }}
           </div>
 
-          <!-- Skills: -->
+        <!-- Past Employers: -->
+        {%- if page.Employers %}
+          <hr/>
+            <h5> I have worked with these amazing folks: </h5>
+            <hr class="hidden" />
+          <div class="row h-75">
+            <div class="col-sm ml-2 mr-2">
+                {% include figure.html path="assets/img/BBDO.png" title="BBDO" class="img-fluid rounded z-depth-1" href="https://bbdoatl.com/" height="140px" %}
+            </div>
+            <div class="col-sm ml-2 mr-2">
+              {% include figure.html path="assets/img/GoldmanSachs.png" title="GoldmanSachs" class="img-fluid rounded z-depth-1" href="https://www.goldmansachs.com/worldwide/india/careers/bengaluru-office/"  %}
+            </div>
+            <div class="col-sm ml-2 mr-2">
+              {% include figure.html path="assets/img/LineData.jpg" title="Linedata" class="img-fluid rounded z-depth-1" href="https://www.linedata.com/"  %}
+            </div>
+            <div class="col-sm ml-2 mr-2">
+              {% include figure.html path="assets/img/Delloite.webp" title="Deloitte" class="img-fluid rounded z-depth-1" href="https://www2.deloitte.com/in/en.html"  %}
+            </div>
+          </div>
+        {%- endif %}
+          
+        <!-- Skills: -->
           {%- if page.skills %}
-            <hr>
+            <hr/>
             <div class="links">
-              <h5> Languages: </h5>
-              <br>
+              <h5> Programming Languages: </h5>
+              <hr class="hidden" />
               {%- for lang in page.languages -%}
-                <span class="skill_btn">{{ lang }}</span>
+                  <span class="skill_btn">{{ lang }}</span>
               {%- endfor %}
-              <br> <br>
-              <h5> Machine Learning: </h5>
-                <br>
-              {%- for lang in page.ML -%}
-                <span class="skill_btn">{{ lang }}</span>
-              {%- endfor %}
-              <br> <br>
+              <hr class="hidden" />
+              <h5> Machine Learning: </h5>              
+                {%- for lang in page.ML -%}
+                  <span class="skill_btn">{{ lang }}</span>
+                {%- endfor %}
+              <hr class="hidden" />
               <h5> Visualizations: </h5>
-                <br>
-              {%- for viz in page.Viz -%}
-                <span class="skill_btn">{{ viz }}</span>
-              {%- endfor %}
-              <br> <br>
+                {%- for viz in page.Viz -%}
+                  <span class="skill_btn">{{ viz }}</span>
+                {%- endfor %}
+              <hr class="hidden" />
             </div>
             <br>
           {%- endif %}
