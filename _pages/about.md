@@ -11,7 +11,7 @@ subtitle: >
 
 profile:
   align: right
-  image: GT2022_Headshot_High_Res.jpg
+  image: GT2022_Headshot_Low_Res.jpg
   image_circular: false # crops the image to make it circular
   address:
 
@@ -31,7 +31,7 @@ I’m a graduate student currently pursuing my MS in Computational analytics at 
 
 I'm currently working as a data scientist intern at [BBDO Atlanta](https://bbdoatl.com/).  
 
-I have previously worked for 5 years in different analytical roles in the field of finance. Most recently as an Associate for the Fixed Income Quants team for [Goldman Sachs](https://www.goldmansachs.com/worldwide/india/careers/bengaluru-office/) where I worked on financial modelling, quantitative strategies, asset managment, and risk. 
+I have previously worked for 5 years in different analytical roles in the field of finance. Most recently, I was an Associate for the Fixed Income Quants team for [Goldman Sachs](https://www.goldmansachs.com/worldwide/india/careers/bengaluru-office/) where I worked on financial modelling, quantitative strategies, asset managment, and risk. 
 
 Check out my Data Science [Projects](/projects/) and my [CV](/cv/)!
 

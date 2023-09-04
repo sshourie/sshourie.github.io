@@ -103,7 +103,11 @@ br.hidden2{
 hr.hidden{
   height:1rem; visibility:hidden;
   margin-top: 0rem;
-  margin-bottom:0rem
+  margin-bottom:0rem;
+}
+hr.bold{
+  border-top: 2px solid;
+  opacity: 0.2;
 }
 
 span.skill_btn{

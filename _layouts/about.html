@@ -45,7 +45,8 @@ layout: default
 
         <!-- Past Employers: -->
         {%- if page.Employers %}
-          <hr/>
+          <hr class="bold"/>
+          <hr class="hidden" />
             <h5> I have worked with these amazing folks: </h5>
             <hr class="hidden" />
           <div class="row h-75">
@@ -66,27 +67,32 @@ layout: default
           
         <!-- Skills: -->
           {%- if page.skills %}
-            <hr/>
+          <hr class="bold"/>
+            <hr class="hidden" />
             <div class="links">
               <h5> Programming Languages: </h5>
               <hr class="hidden" />
               {%- for lang in page.languages -%}
                   <span class="skill_btn">{{ lang }}</span>
               {%- endfor %}
-              <hr class="hidden" />
+              <hr class="hidden" /> <hr class="hidden" />
               <h5> Machine Learning: </h5>              
+              <hr class="hidden" />
                 {%- for lang in page.ML -%}
                   <span class="skill_btn">{{ lang }}</span>
                 {%- endfor %}
-              <hr class="hidden" />
+              <hr class="hidden" /> <hr class="hidden" />
               <h5> Visualizations: </h5>
+              <hr class="hidden" />
                 {%- for viz in page.Viz -%}
                   <span class="skill_btn">{{ viz }}</span>
                 {%- endfor %}
-              <hr class="hidden" />
+              <hr class="hidden" /> 
             </div>
             <br>
+            <hr class="bold"/>
           {%- endif %}
+          
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
