@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Interactive Map
+description: TEMP WORDS This website demonstrates an easy to recreate interactive map using folium and python
+img: assets/img/Folium_map.png
+redirect: https://sshourie.github.io/Folium_map/
 importance: 3
 category: fun
 ---
