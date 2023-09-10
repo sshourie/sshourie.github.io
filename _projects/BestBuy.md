@@ -7,12 +7,6 @@ importance: 4
 category: projects
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BestBuy1.png" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 This project was part of a Data Science competition sponsored by Best Buy. Our team finished second.
 
 #### Project Aim:

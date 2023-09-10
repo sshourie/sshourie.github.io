@@ -16,7 +16,7 @@ category: projects
     We use multimodal (image + text) learning to overcome the language disparity that exists between English and non-English languages. The figure illustrates an example of a social media post that is correctly classified in English but misclassified in Spanish. Including the corresponding image leads to correct classification in Spanish as well as other non-English languages
 </div>
 
-This project was done as part of the course [CS 7642 Deep Learning](https://www.cc.gatech.edu/classes/AY2023/cs7643_spring/) at Georgia Tech.
+This project was done as part of the course [CS 7643 Deep Learning](https://www.cc.gatech.edu/classes/AY2023/cs7643_spring/) at Georgia Tech.
 
 We investigated different multi-modal deep learning architectures with a focus on bridging performance gap in classification in English language vs non-English (Hindi in our study) lanugage tasks. 
 The term multi-modal here means that we used both textual and image based inputs (modes) while training our classification model.
