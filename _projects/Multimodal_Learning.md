@@ -2,14 +2,14 @@
 layout: page
 title: Multi-modal Learning
 description: Multimodal Learning for improving Non-English Classification tasks
-img: assets/img/Multimodal_Intro.png
+img: assets/img/Multimodal_Intro1.png
 importance: 4
 category: projects
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Multimodal_Intro.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Multimodal_Intro1.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
