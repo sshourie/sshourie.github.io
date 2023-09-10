@@ -4,7 +4,7 @@ title: Fashion Outfit Compatibility
 description: Fashion recommendation by estimating compatibility of items in an outfit
 img: assets/img/OutfitCompatibility1.png
 importance: 4
-category: course
+category: projects
 ---
 
 <div class="row">

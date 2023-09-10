@@ -2,14 +2,14 @@
 layout: page
 title: Automate Playlist Creator
 description: Python script which uses Spotify API to automate playlist creation
-img: assets/img/DiscoverWeekly2.png
+img: assets/img/DiscoverWeekly2.jpg
 importance: 3
 category: fun
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/DiscoverWeeekly1.png" title="PLaylist Creator" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/DiscoverWeeekly2.jpg" title="PLaylist Creator" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

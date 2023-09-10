@@ -4,7 +4,7 @@ title: Multi-modal Learning
 description: Multimodal Learning for improving Non-English Classification tasks
 img: assets/img/Multimodal_Intro.png
 importance: 4
-category: course
+category: projects
 ---
 
 <div class="row">

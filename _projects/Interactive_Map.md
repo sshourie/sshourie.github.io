@@ -4,7 +4,7 @@ title: Interactive Map
 description: This website demonstrates an easy to recreate interactive map using folium and python
 img: assets/img/Folium_map.png
 redirect: https://sshourie.github.io/Folium_map/
-importance: 3
+importance: 1
 category: work
 ---
 
