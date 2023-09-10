@@ -4,7 +4,7 @@ title: Critical Healthcare (SCCM Project)
 description: Project in collaboration with clinicians to address real-world problems in healthcare using existing databases.
 img: assets/img/SCCM1.png
 importance: 1
-category: work
+category: fun
 related_publications: #einstein1956investigations, einstein1950meaning
 ---
 

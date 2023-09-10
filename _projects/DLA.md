@@ -5,7 +5,7 @@ description: The problem is based on recreating the snowflake like structure cal
 img: assets/img/DLA_2.png
 # redirect: https://unsplash.com
 importance: 3
-category: work
+category: fun
 ---
 
 # Diffusion Limited Aggregation (DLA):
