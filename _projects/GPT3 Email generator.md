@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GPT3 Email Generator
-description: This website demonstrates an easy to recreate interactive map using folium and python
+description: Interactive stramlit app that uses OpenAI GPT3 language model to help draft emails.
 img: assets/img/GPTEmailHelper.png
 redirect: https://emailgenerator-sshourie.streamlit.app/
 importance: 1
