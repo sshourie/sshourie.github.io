@@ -3,7 +3,7 @@ layout: page
 title: Web Scraping and Sentiment Analysis 
 description: Using Selenium for web scraping and then using Transformers for sentiment analysis.
 img: assets/img/SentimentAnalysis1.png
-importance: 2
+importance: 3
 category: work
 giscus_comments: false
 ---

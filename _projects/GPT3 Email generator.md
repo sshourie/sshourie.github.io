@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Interactive Map
+title: GPT3 Email Generator
 description: This website demonstrates an easy to recreate interactive map using folium and python
-img: assets/img/Folium_map.png
-redirect: https://sshourie.github.io/Folium_map/
-importance: 2
+img: assets/img/GPTEmailHelper.png
+redirect: https://emailgenerator-sshourie.streamlit.app/
+importance: 1
 category: work
 ---
 
