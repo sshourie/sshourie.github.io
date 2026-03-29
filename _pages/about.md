@@ -26,12 +26,11 @@ Viz: [Tableau, ggplot, plotly, Shiny, D3.js, Folium]
 buttons_per_row: 3
 Employers: true
 ---
+I'm a Seior Data Scientist at [WebstaurantStore](https://www.webstaurantstore.com/) where I'm working across search, recommendations, marketing experimentation and customer analytics.
 
-I’m a graduate student currently pursuing my MS in Computational analytics at [Georgia Institute of Technology](https://www.analytics.gatech.edu/), graduating in Dec 2023, with a focus on Machine Learning and statistical methods.
+I completed my MS in Computational analytics at [Georgia Institute of Technology](https://www.analytics.gatech.edu/), graduated in Dec 2023, with a focus on Machine Learning and statistical methods.
 
-I'm currently working as a data scientist intern at [BBDO Atlanta](https://bbdoatl.com/).  
-
-I have previously worked for 5 years in different analytical roles in the field of finance. Most recently, I was an Associate for the Fixed Income Quants team for [Goldman Sachs](https://www.goldmansachs.com/worldwide/india/careers/bengaluru-office/) where I worked on financial modelling, quantitative strategies, asset managment, and risk. 
+Previously, I've worked as a data scientist intern at [BBDO Atlanta](https://bbdoatl.com/), where I worked on developing marketing soultions. Prior to that I was an Associate for the Fixed Income Quants team for [Goldman Sachs](https://www.goldmansachs.com/worldwide/india/careers/bengaluru-office/) where I worked on financial modelling, quantitative strategies, asset managment, and risk. 
 
 Check out my Data Science [Projects](/projects/) and my [CV](/cv/)!
 
